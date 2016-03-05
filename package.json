@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "sails": {
+    "isHook": true
+  },
   "repository": {
     "type": "git",
     "url": "git@git.hedcoint.com:dev/sails-hook-autoRoute.git"
