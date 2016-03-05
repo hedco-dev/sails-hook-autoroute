@@ -1,0 +1,43 @@
+{
+  "name": "sails-hook-autoroute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.hedcoint.com:dev/sails-hook-autoRoute.git"
+  },
+  "author": "HEDCo",
+  "license": "ISC",
+  "jshintConfig": {
+    "node": true,
+    "esnext": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 2,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "browser": true,
+    "mocha": true,
+    "globals": {
+      "sails": true,
+      "_": true
+    }
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
